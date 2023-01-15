@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+
+    <link rel="stylesheet" href="./dummy.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section id="comment-section">
+        <div class="container">
+
+            <!-- Comments Section -->
+            <article class="comment-item">
+                <h1>Comment Box</h1>
+                <div class="box">
+                    <label for="comment">Username</label>
+                    <!-- <input type="text" placeholder="User Name" id="user"> -->
+                    <textarea name="" id="user" cols="" rows="1" required></textarea><br>
+                    <label for="comment">Comment</label>
+                    <!-- <input type="text" placeholder="add any comment..." id="comment"> -->
+                    <textarea name="" id="comment" cols="" rows="1" required></textarea>
+                </div>
+                <div class="box box-sub">
+                    <div>
+                        <i class="fa fa-comment fa-2x"></i>
+                        <span id="comment-counter">0</span>
+                    </div>
+                    <div>
+                        <button id="add-comment">Add</button>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Comments Information -->
+            <article class="comments comment-item" id="comments-container">
+                
+            </article> 
+        </div>
+    </section>
+
+
+    <script src="./dummy.js"></script>
+</body>
+</html>
